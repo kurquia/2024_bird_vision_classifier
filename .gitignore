@@ -1,0 +1,24 @@
+# Dataset (download from Kaggle: gpiosenka/100-bird-species)
+100-bird-species/
+
+# Model weights and archives (only the best augmented checkpoint, epoch 81, is committed)
+*.pt
+!aug_checkpoints/checkpoint_epoch_81.pt
+*.pth
+*.h5
+*.zip
+*.tar.gz
+checkpoints*/
+content/
+lightning_logs/
+
+# Large generated results
+true_vs_probabilities.csv
+
+# Editor / Jupyter junk
+.ipynb_checkpoints/
+.~lock.*
+__pycache__/
+
+# Python virtual environment
+.venv/
